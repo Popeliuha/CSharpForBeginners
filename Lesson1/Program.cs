@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+Console.Read();
 
 // Whitespaces
 bool isHappy = true;
@@ -23,3 +24,4 @@ else
 //    int salary = 500;
 //    Console.WriteLine($"Junior salary is {salary}");
 //}
+
