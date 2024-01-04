@@ -1,27 +1,35 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.Read();
+﻿//See https://aka.ms/new-console-template for more information
+using System.Runtime.InteropServices;
 
-// Whitespaces
-bool isHappy = true;
+Console.WriteLine("Hello, World!"); //int a = 1;
+Console.WriteLine("Hello, Heaven!"); //int a = 1;
 
-/*if (isHappy)
+
+//Whitespaces
+/*bool isHappy = true;
+
+if (isHappy)
 {
     Console.WriteLine("I'm happy!");
 }
-else
+else*/
 {
     Console.WriteLine("I'm sad!");
-}*/
+}
 
-
-// No Whitespaces
-//bool isHappy = true;
+int a = 123456;
+//////No Whitespaces
+////bool isHappy = true;
 //if (isHappy) { Console.WriteLine("I'm happy!"); } else { Console.WriteLine("I'm sad!"); }
 
 
 //{
-//    int salary = 500;
-//    Console.WriteLine($"Junior salary is {salary}");
+//    int mySalary = 500;
+//    int mysalary = 600;
+//    Console.WriteLine($"Junior salary is {mysalary}");
 //}
 
+
+//{ }
+
+Console.Read();
